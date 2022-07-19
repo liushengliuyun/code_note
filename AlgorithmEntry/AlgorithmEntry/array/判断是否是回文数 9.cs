@@ -1,10 +1,12 @@
-namespace ConsoleApp1
+namespace _9
 {
-    public class Solution {
-
-        public bool IsPalindrome(int x) {
+    public class Solution
+    {
+        public bool IsPalindrome(int x)
+        {
             //0 不是回文数 ,能被10整除的也不是回文数
-            if (x < 0 || (x % 10 == 0 && x != 0)) {
+            if (x < 0 || (x % 10 == 0 && x != 0))
+            {
                 return false;
             }
 
