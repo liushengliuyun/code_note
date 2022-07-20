@@ -1,0 +1,13 @@
+F:\code_note\AlgorithmEntry\AlgorithmEntry\bin\Debug\netcoreapp3.1\AlgorithmEntry.exe
+F:\code_note\AlgorithmEntry\AlgorithmEntry\bin\Debug\netcoreapp3.1\AlgorithmEntry.deps.json
+F:\code_note\AlgorithmEntry\AlgorithmEntry\bin\Debug\netcoreapp3.1\AlgorithmEntry.runtimeconfig.json
+F:\code_note\AlgorithmEntry\AlgorithmEntry\bin\Debug\netcoreapp3.1\AlgorithmEntry.runtimeconfig.dev.json
+F:\code_note\AlgorithmEntry\AlgorithmEntry\bin\Debug\netcoreapp3.1\AlgorithmEntry.dll
+F:\code_note\AlgorithmEntry\AlgorithmEntry\bin\Debug\netcoreapp3.1\AlgorithmEntry.pdb
+F:\code_note\AlgorithmEntry\AlgorithmEntry\obj\Debug\netcoreapp3.1\AlgorithmEntry.csprojAssemblyReference.cache
+F:\code_note\AlgorithmEntry\AlgorithmEntry\obj\Debug\netcoreapp3.1\AlgorithmEntry.AssemblyInfoInputs.cache
+F:\code_note\AlgorithmEntry\AlgorithmEntry\obj\Debug\netcoreapp3.1\AlgorithmEntry.AssemblyInfo.cs
+F:\code_note\AlgorithmEntry\AlgorithmEntry\obj\Debug\netcoreapp3.1\AlgorithmEntry.csproj.CoreCompileInputs.cache
+F:\code_note\AlgorithmEntry\AlgorithmEntry\obj\Debug\netcoreapp3.1\AlgorithmEntry.dll
+F:\code_note\AlgorithmEntry\AlgorithmEntry\obj\Debug\netcoreapp3.1\AlgorithmEntry.pdb
+F:\code_note\AlgorithmEntry\AlgorithmEntry\obj\Debug\netcoreapp3.1\AlgorithmEntry.genruntimeconfig.cache
