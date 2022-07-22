@@ -26,6 +26,21 @@
             a.next = bNext;
             b.next = aNext;
         }
+
+        public static ListNode reverseList(ListNode node, ListNode tail = null)
+        {
+            ListNode next = node.next;
+            ListNode last = node;
+            while (next != null && next != tail)
+            {
+                ListNode nNext = next.next;
+                next.next = last;
+                last = next;
+                next = nNext;
+            }
+
+            return last;
+        }
     }
 }
 
