@@ -8,5 +8,24 @@
             this.next = next;
         }
     }
+
+
+    public static class DataUtils
+    {
+        //要交换的是a和b后面的节点
+        public static void SwitchListNode(ListNode a, ListNode b)
+        {
+            ListNode aNext = a.next;
+            ListNode bNext = b.next;
+
+            if (aNext == null || bNext == null)
+            {
+                return;
+            }
+
+            a.next = bNext;
+            b.next = aNext;
+        }
+    }
 }
 
