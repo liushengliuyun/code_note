@@ -43,6 +43,7 @@
             }
             reLoginHandler = (sender, args) => { OnDispose(); };
             
+            //添加监听
             EventDispatcher.Root.AddListener(GlobalEvent.RELOGIN, reLoginHandler);
         }
 
@@ -53,7 +54,9 @@
                 Framework.Instance.StopCoroutine(coroutine);
             }
 
-            Framework.Instance.StartCoroutine(TryRemoveListener());
+            
+         //依赖cat lib的协程   
+           Framework.Instance.StartCoroutine(TryRemoveListener());
         }
 
         private EventHandler reLoginHandler;
@@ -135,6 +138,10 @@
             RemoveListener();
         }
 
+        /// <summary>
+        /// 移除监听
+        /// </summary>
+        /// <returns></returns>
         private void RemoveListener()
         {
             EventDispatcher.Root.RemoveListener(GlobalEvent.RELOGIN, reLoginHandler);
@@ -147,6 +154,7 @@
 
         IEnumerator TryRemoveListener()
         {
+            //等待一帧后 ， 理由：
             yield return new WaitForEndOfFrame();
             RemoveListener();
         }
