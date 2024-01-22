@@ -1,0 +1,43 @@
+;move to Appconfig.cs
+[KEngine]
+AssetBundleExt = .ab
+ProductRelPath	= Product
+AssetBundleBuildRelPath	= Product/Bundles
+StreamingBundlesFolderName = Bundles
+IsLoadAssetBundle = 1
+;whether use assetdata.loadassetatpath insead of load asset bundle, editor only
+IsEditorLoadAsset = 0
+SettingExt = .tsv
+
+
+[KEngine.Setting]
+; config use lua  or c# + tsv
+IsUseLuaConfig = 0
+SettingSourcePath = Product/SettingSource
+ExportLuaPath = Lua/configs
+ExportTsvPath = Product/Setting
+ExportCSharpPath = Assets/Code/AppSettings/
+
+
+;Folder in Resources
+SettingResourcesPath = Setting
+
+; Ignore genereate code for these excel.
+SettingCodeIgnorePattern = (I18N/.*)|(StringsTable.*)
+
+; Override default "UGUIBridge"
+[KEngine.UI]
+UIModuleBridge = KSFramework.UGUISLuaBridge
+UIResolution = 1280,720
+
+[KSFramework.I18N]
+;first as default
+I18NLanguages = zh_CN,en_US
+
+; current language
+I18N = en_US
+
+
+[KSFramework.Lua]
+; a path relative to product path
+LuaPath = Lua
