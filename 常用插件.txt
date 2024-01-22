@@ -1,5 +1,27 @@
 ﻿dotween 
 
+dotween可视化编辑插件 AnimationSequence
+
 uieffect https://github.com/mob-sakai/UIEffect 【2d ui shader效果  常见的譬如按钮置灰】
 
 https://www.bilibili.com/video/BV1tP411S75y/?spm_id_from=333.788&vd_source=bfbb5d9a6bd0eff54bc25b2365ea276c 【视频介绍ui插件】
+
+图片变形 CurlyUI
+
+本地数据库 LiteDB
+
+把图片当作粒子来处理 ParticleImage
+
+Psd2UGUI预制体 Psd2UnityPro
+
+快速制作图片 Shapes2D
+
+UniRX  
+
+异步编程UniTask
+
+资源管理 YooAsset
+
+管理粒子系统层级 UIParticleSystem
+
+将摄像机绘制的图片转为序列帧图片 ImageExporter
