@@ -37,3 +37,5 @@ UniRX
 计时器 "com.akbiggs.unitytimer": "https://github.com/akbiggs/UnityTimer.git"
 
 内存查看工具 "com.unity.memoryprofiler": "0.7.1-preview.1"
+
+资源引用查看工具 ReferenceFinder
