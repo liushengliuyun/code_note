@@ -39,3 +39,5 @@ UniRX
 内存查看工具 "com.unity.memoryprofiler": "0.7.1-preview.1"
 
 资源引用查看工具 ReferenceFinder
+
+Roslyn C# - Runtime C# compile  [c#动态运行库]
