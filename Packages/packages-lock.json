@@ -1,5 +1,43 @@
 {
   "dependencies": {
+    "com.akbiggs.unitytimer": {
+      "version": "https://github.com/akbiggs/UnityTimer.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "4554e279ae43277841948a98c97ed398a987fce3"
+    },
+    "com.coffee.ui-particle": {
+      "version": "https://github.com/mob-sakai/ParticleEffectForUGUI.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {
+        "com.unity.ugui": "1.0.0",
+        "com.unity.modules.particlesystem": "1.0.0"
+      },
+      "hash": "598c85e0f455d38d7592758cffeeef7771609b16"
+    },
+    "com.jeffjadulco.guidregenerator": {
+      "version": "https://github.com/jeffjadulco/unity-guid-regenerator.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "7dbce4b94bd7f92c33de382439f662a0731a1db9"
+    },
+    "com.litefeel.renametools": {
+      "version": "https://github.com/litefeel/Unity-RenameTools.git#2.0.0",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "d52bd32013b97b75ddee6a3ef1419ed415775982"
+    },
+    "com.redbluegames.mulligan": {
+      "version": "https://github.com/redbluegames/unity-mulligan-renamer.git?path=/Assets/RedBlueGames/MulliganRenamer",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "2571f2e28250162410b8b6c28f2ffde724391cf1"
+    },
     "com.unity.2d.animation": {
       "version": "9.1.1",
       "depth": 1,
