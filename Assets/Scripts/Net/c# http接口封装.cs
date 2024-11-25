@@ -1,7 +1,13 @@
 //c# http接口封装
+using System;
+using System.Collections;
+using System.Text;
+using My;
+using UnityEngine;
+using UnityEngine.Networking;
+using Utils;
 
-
- public class HttpRequestHandler : IDisposable
+public class HttpRequestHandler : IDisposable
     {
         private readonly UnityWebRequest _unityWebRequest;
 
@@ -23,7 +29,7 @@
 
             if (string.IsNullOrEmpty(_httpMethod))
             {
-                CarbonLogger.LogError("创建HTTP没有传入Method");
+                // CarbonLogger.LogError("创建HTTP没有传入Method");
                 return;
             }
 
@@ -44,19 +50,19 @@
             reLoginHandler = (sender, args) => { OnDispose(); };
             
             //添加监听
-            EventDispatcher.Root.AddListener(GlobalEvent.RELOGIN, reLoginHandler);
+            // MyEventDispatcher.AddListener(GlobalEvent.RELOGIN, reLoginHandler);
         }
 
         private void OnDispose()
         {
             if (coroutine != null)
             {
-                Framework.Instance.StopCoroutine(coroutine);
+                MyFramework.Instance.StopCoroutine(coroutine);
             }
 
             
          //依赖cat lib的协程   
-           Framework.Instance.StartCoroutine(TryRemoveListener());
+           MyFramework.Instance.StartCoroutine(TryRemoveListener());
         }
 
         private EventHandler reLoginHandler;
@@ -80,14 +86,14 @@
 
         public void Start()
         {
-            coroutine = Framework.Instance.StartCoroutine(OnStartRequest());
+            coroutine = MyFramework.Instance.StartCoroutine(OnStartRequest());
         }
 
         private IEnumerator OnStartRequest()
         {
             if (_unityWebRequest == null)
             {
-                CarbonLogger.LogError("UnityWebRequest 为空");
+                // CarbonLogger.LogError("UnityWebRequest 为空");
                 yield break;
             }
 
@@ -97,7 +103,7 @@
 
             if (!string.IsNullOrEmpty(_unityWebRequest.error))
             {
-                CarbonLogger.LogError($"请求失败 {_unityWebRequest.error} {_url}");
+                // CarbonLogger.LogError($"请求失败 {_unityWebRequest.error} {_url}");
                 _callBack?.Invoke(false, _unityWebRequest.error);
                 _unityWebRequest.Dispose();
                 yield break;
@@ -117,10 +123,10 @@
             else
             {
                 var downloadHandlerText = _unityWebRequest.downloadHandler.text;
-                YZLog.LogColor(
-                    $"请求的url是 {_url} " +
-                    $" 请求的数据长度是 {_unityWebRequest.downloadHandler.data.Length} " +
-                    $"请求的内容是 {downloadHandlerText}");
+                // YZLog.LogColor(
+                //     $"请求的url是 {_url} " +
+                //     $" 请求的数据长度是 {_unityWebRequest.downloadHandler.data.Length} " +
+                //     $"请求的内容是 {downloadHandlerText}");
 
                 if (IsDecompressText)
                 {
@@ -144,7 +150,7 @@
         /// <returns></returns>
         private void RemoveListener()
         {
-            EventDispatcher.Root.RemoveListener(GlobalEvent.RELOGIN, reLoginHandler);
+            // MyEventDispatcher.RemoveListener(GlobalEvent.RELOGIN, reLoginHandler);
         }
 
         public void Dispose()

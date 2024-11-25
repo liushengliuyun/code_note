@@ -1,6 +1,6 @@
-﻿namespace DefaultNamespace;
-
-
+﻿
+using UnityEngine;
+using UnityEngine.UI;
 
 [RequireComponent(typeof(Image))]
 public class 使图片透明部分可点穿: MonoBehaviour
