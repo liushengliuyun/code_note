@@ -1,0 +1,234 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7d2db98314fc904fa81236a0a67b3cf, type: 3}
+  m_Name: 3_scene_slotmachine
+  m_EditorClassIdentifier: 
+  types:
+  - data: []
+  - data: []
+  - data: []
+  - data: []
+  - data: []
+  - data: []
+  - data:
+    - saverType: 6
+      id_in_external_heap: 1635995484
+      indentifierVersion: GlobalObjectId_V1
+      identifierTypetargetObjectIdtargetPrefabId: -2-11fc157c199147d43bfd26b752faae34-649505338-0
+      namesPathBackup: "SlotController\xBESlot\xBESlotGroup (0)\xBERaycasterGroup(0)\xBErc_group_0(top)"
+      siblingsPathBackup: "3\xBE1\xBE4\xBE0\xBE0"
+      boolValue: 0
+      stringValue: 
+      highLighterData: []
+      iconData:
+      - icon_guid: Library/sv_label_1
+        icon_path: 
+        has_icon_color: 0
+        icon_color: {r: 0, g: 0, b: 0, a: 0}
+    - saverType: 6
+      id_in_external_heap: -677927165
+      indentifierVersion: GlobalObjectId_V1
+      identifierTypetargetObjectIdtargetPrefabId: -2-11fc157c199147d43bfd26b752faae34-2034269020-0
+      namesPathBackup: "SlotController\xBESlot\xBESlotGroup (0)\xBERaycasterGroup(0)\xBErc_group_0(middle)"
+      siblingsPathBackup: "3\xBE1\xBE4\xBE0\xBE1"
+      boolValue: 0
+      stringValue: 
+      highLighterData: []
+      iconData:
+      - icon_guid: Library/sv_label_1
+        icon_path: 
+        has_icon_color: 0
+        icon_color: {r: 0, g: 0, b: 0, a: 0}
+    - saverType: 6
+      id_in_external_heap: 442488361
+      indentifierVersion: GlobalObjectId_V1
+      identifierTypetargetObjectIdtargetPrefabId: -2-11fc157c199147d43bfd26b752faae34-1074324452-0
+      namesPathBackup: "SlotController\xBESlot\xBESlotGroup (0)\xBERaycasterGroup(0)\xBErc_group_0(bot)"
+      siblingsPathBackup: "3\xBE1\xBE4\xBE0\xBE2"
+      boolValue: 0
+      stringValue: 
+      highLighterData: []
+      iconData:
+      - icon_guid: Library/sv_label_1
+        icon_path: 
+        has_icon_color: 0
+        icon_color: {r: 0, g: 0, b: 0, a: 0}
+    - saverType: 6
+      id_in_external_heap: 1835540742
+      indentifierVersion: GlobalObjectId_V1
+      identifierTypetargetObjectIdtargetPrefabId: -2-11fc157c199147d43bfd26b752faae34-1849361364-0
+      namesPathBackup: "SlotController\xBESlot\xBESlotGroup (2)\xBERaycasterGroup(2)\xBErc_group_2(top)"
+      siblingsPathBackup: "3\xBE1\xBE6\xBE0\xBE0"
+      boolValue: 0
+      stringValue: 
+      highLighterData: []
+      iconData:
+      - icon_guid: Library/sv_label_2
+        icon_path: 
+        has_icon_color: 0
+        icon_color: {r: 0, g: 0, b: 0, a: 0}
+    - saverType: 6
+      id_in_external_heap: 482708047
+      indentifierVersion: GlobalObjectId_V1
+      identifierTypetargetObjectIdtargetPrefabId: -2-11fc157c199147d43bfd26b752faae34-1517874614-0
+      namesPathBackup: "SlotController\xBESlot\xBESlotGroup (2)\xBERaycasterGroup(2)\xBErc_group_2(middle)"
+      siblingsPathBackup: "3\xBE1\xBE6\xBE0\xBE1"
+      boolValue: 0
+      stringValue: 
+      highLighterData: []
+      iconData:
+      - icon_guid: Library/sv_label_2
+        icon_path: 
+        has_icon_color: 0
+        icon_color: {r: 0, g: 0, b: 0, a: 0}
+    - saverType: 6
+      id_in_external_heap: -446315680
+      indentifierVersion: GlobalObjectId_V1
+      identifierTypetargetObjectIdtargetPrefabId: -2-11fc157c199147d43bfd26b752faae34-813692109-0
+      namesPathBackup: "SlotController\xBESlot\xBESlotGroup (2)\xBERaycasterGroup(2)\xBErc_group_2(bot)"
+      siblingsPathBackup: "3\xBE1\xBE6\xBE0\xBE2"
+      boolValue: 0
+      stringValue: 
+      highLighterData: []
+      iconData:
+      - icon_guid: Library/sv_label_2
+        icon_path: 
+        has_icon_color: 0
+        icon_color: {r: 0, g: 0, b: 0, a: 0}
+    - saverType: 6
+      id_in_external_heap: 1529885018
+      indentifierVersion: GlobalObjectId_V1
+      identifierTypetargetObjectIdtargetPrefabId: -2-11fc157c199147d43bfd26b752faae34-1566603060-0
+      namesPathBackup: "SlotController\xBESlot\xBESlotGroup (4)\xBERaycasterGroup(3)\xBErc_group_4(top)"
+      siblingsPathBackup: "3\xBE1\xBE8\xBE0\xBE0"
+      boolValue: 0
+      stringValue: 
+      highLighterData: []
+      iconData:
+      - icon_guid: Library/sv_label_4
+        icon_path: 
+        has_icon_color: 0
+        icon_color: {r: 0, g: 0, b: 0, a: 0}
+    - saverType: 6
+      id_in_external_heap: -1188839572
+      indentifierVersion: GlobalObjectId_V1
+      identifierTypetargetObjectIdtargetPrefabId: -2-11fc157c199147d43bfd26b752faae34-2147303889-0
+      namesPathBackup: "SlotController\xBESlot\xBESlotGroup (4)\xBERaycasterGroup(3)\xBErc_group_4(middle)"
+      siblingsPathBackup: "3\xBE1\xBE8\xBE0\xBE1"
+      boolValue: 0
+      stringValue: 
+      highLighterData: []
+      iconData:
+      - icon_guid: Library/sv_label_4
+        icon_path: 
+        has_icon_color: 0
+        icon_color: {r: 0, g: 0, b: 0, a: 0}
+    - saverType: 6
+      id_in_external_heap: -752176722
+      indentifierVersion: GlobalObjectId_V1
+      identifierTypetargetObjectIdtargetPrefabId: -2-11fc157c199147d43bfd26b752faae34-1071612791-0
+      namesPathBackup: "SlotController\xBESlot\xBESlotGroup (4)\xBERaycasterGroup(3)\xBErc_group_4(bot)"
+      siblingsPathBackup: "3\xBE1\xBE8\xBE0\xBE2"
+      boolValue: 0
+      stringValue: 
+      highLighterData: []
+      iconData:
+      - icon_guid: Library/sv_label_4
+        icon_path: 
+        has_icon_color: 0
+        icon_color: {r: 0, g: 0, b: 0, a: 0}
+    - saverType: 6
+      id_in_external_heap: 2019747359
+      indentifierVersion: GlobalObjectId_V1
+      identifierTypetargetObjectIdtargetPrefabId: -2-11fc157c199147d43bfd26b752faae34-1717999931-0
+      namesPathBackup: "SlotController\xBESlot\xBESlotGroup (1)\xBERaycasterGroup(1)\xBErc_group_1(top)"
+      siblingsPathBackup: "3\xBE1\xBE5\xBE0\xBE0"
+      boolValue: 0
+      stringValue: 
+      highLighterData: []
+      iconData:
+      - icon_guid: Library/sv_label_0
+        icon_path: 
+        has_icon_color: 0
+        icon_color: {r: 0, g: 0, b: 0, a: 0}
+    - saverType: 6
+      id_in_external_heap: -1937444672
+      indentifierVersion: GlobalObjectId_V1
+      identifierTypetargetObjectIdtargetPrefabId: -2-11fc157c199147d43bfd26b752faae34-980019341-0
+      namesPathBackup: "SlotController\xBESlot\xBESlotGroup (3)\xBERaycasterGroup(3)\xBErc_group_3(top)"
+      siblingsPathBackup: "3\xBE1\xBE7\xBE0\xBE0"
+      boolValue: 0
+      stringValue: 
+      highLighterData: []
+      iconData:
+      - icon_guid: Library/sv_label_3
+        icon_path: 
+        has_icon_color: 0
+        icon_color: {r: 0, g: 0, b: 0, a: 0}
+    - saverType: 6
+      id_in_external_heap: -2144245669
+      indentifierVersion: GlobalObjectId_V1
+      identifierTypetargetObjectIdtargetPrefabId: -2-11fc157c199147d43bfd26b752faae34-1935495235-0
+      namesPathBackup: "SlotController\xBESlot\xBESlotGroup (1)\xBERaycasterGroup(1)\xBErc_group_1(middle)"
+      siblingsPathBackup: "3\xBE1\xBE5\xBE0\xBE1"
+      boolValue: 0
+      stringValue: 
+      highLighterData: []
+      iconData:
+      - icon_guid: Library/sv_label_0
+        icon_path: 
+        has_icon_color: 0
+        icon_color: {r: 0, g: 0, b: 0, a: 0}
+    - saverType: 6
+      id_in_external_heap: -1098141284
+      indentifierVersion: GlobalObjectId_V1
+      identifierTypetargetObjectIdtargetPrefabId: -2-11fc157c199147d43bfd26b752faae34-961775312-0
+      namesPathBackup: "SlotController\xBESlot\xBESlotGroup (1)\xBERaycasterGroup(1)\xBErc_group_1(bot)"
+      siblingsPathBackup: "3\xBE1\xBE5\xBE0\xBE2"
+      boolValue: 0
+      stringValue: 
+      highLighterData: []
+      iconData:
+      - icon_guid: Library/sv_label_0
+        icon_path: 
+        has_icon_color: 0
+        icon_color: {r: 0, g: 0, b: 0, a: 0}
+    - saverType: 6
+      id_in_external_heap: -189755240
+      indentifierVersion: GlobalObjectId_V1
+      identifierTypetargetObjectIdtargetPrefabId: -2-11fc157c199147d43bfd26b752faae34-1551980293-0
+      namesPathBackup: "SlotController\xBESlot\xBESlotGroup (3)\xBERaycasterGroup(3)\xBErc_group_3(bot)"
+      siblingsPathBackup: "3\xBE1\xBE7\xBE0\xBE2"
+      boolValue: 0
+      stringValue: 
+      highLighterData: []
+      iconData:
+      - icon_guid: Library/sv_label_3
+        icon_path: 
+        has_icon_color: 0
+        icon_color: {r: 0, g: 0, b: 0, a: 0}
+    - saverType: 6
+      id_in_external_heap: 313257518
+      indentifierVersion: GlobalObjectId_V1
+      identifierTypetargetObjectIdtargetPrefabId: -2-11fc157c199147d43bfd26b752faae34-1560277094-0
+      namesPathBackup: "SlotController\xBESlot\xBESlotGroup (3)\xBERaycasterGroup(3)\xBErc_group_3(middle)"
+      siblingsPathBackup: "3\xBE1\xBE7\xBE0\xBE1"
+      boolValue: 0
+      stringValue: 
+      highLighterData: []
+      iconData:
+      - icon_guid: Library/sv_label_3
+        icon_path: 
+        has_icon_color: 0
+        icon_color: {r: 0, g: 0, b: 0, a: 0}
+  BookMarks_InternalGlobal: []
+  HierExpands_InternalGlobal: []
