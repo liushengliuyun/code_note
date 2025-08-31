@@ -26,6 +26,12 @@
       },
       "hash": "598c85e0f455d38d7592758cffeeef7771609b16"
     },
+    "com.insaneone.avoidance": {
+      "version": "file:com.insaneone.avoidance",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
     "com.jeffjadulco.guidregenerator": {
       "version": "https://github.com/jeffjadulco/unity-guid-regenerator.git",
       "depth": 0,
